@@ -1,12 +1,20 @@
 body {
-  background-color: #79d8ed;
+  background-color: #adebb3;
+  font-family: Quicksand;
 }
 
 .navbar {
-  background-color: #72f77d !important;
+  background-color: #51d434 !important;
 }
 
-img {
-  height: 500px;
-  width: 500px;
+.img-stretch {
+  width: stretch;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  font-size: 18px;
 }
