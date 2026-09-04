@@ -2,3 +2,7 @@ img {
   height: 500px;
   width: 500px;
 }
+
+.navbar {
+  background-color: #72f77d !important;
+}
