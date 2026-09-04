@@ -18,3 +18,12 @@ p {
 ul {
   font-size: 18px;
 }
+
+.list-group-item {
+  background-color: #adebb3;
+  border-color: darkgray;
+}
+
+.list-group-flush > .list-group-item:last-child {
+  border-bottom: 1px solid darkgray;
+}
