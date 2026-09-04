@@ -1,7 +1,12 @@
+body {
+  background-color: #79d8ed;
+}
+
+.navbar {
+  background-color: #72f77d !important;
+}
+
 img {
   height: 500px;
   width: 500px;
-}
-body {
-  background-color: #79d8ed;
 }
