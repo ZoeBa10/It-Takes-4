@@ -27,3 +27,8 @@ ul {
 .list-group-flush > .list-group-item:last-child {
   border-bottom: 1px solid darkgray;
 }
+
+p. {
+  font-size: 0px;
+  margin: 20px;
+}
