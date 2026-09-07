@@ -71,7 +71,25 @@
       δημιουργήσεις το προφίλ σου και να ξεκινήσεις να διαχειρίζεσαι τον χρόνο
       σου καλύτερα!
     </p>
-    <button type="button" class="btn btn-primary">Download</button>
-    <button type="button" class="btn btn-primary">Create Your Profile</button>
+    <button type="button" id="downloadButton" class="btn btn-primary">
+      Download
+    </button>
+    <button type="button" id="profileButton" class="btn btn-primary">
+      Create Your Account
+    </button>
+
+    <script>
+      document
+        .getElementById("downloadButton")
+        .addEventListener("click", () => {
+          alert("App successfully downloaded!");
+
+          document
+            .getElementById("profileButton")
+            .addEventListener("click", () => {
+              alert("Account successfully created!");
+            });
+        });
+    </script>
   </body>
 </html>
