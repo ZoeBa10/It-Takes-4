@@ -16,19 +16,27 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">DigiBalance</a>
+        <a class="navbar-brand" href="./index.html">
+          <img
+            id="logo"
+            src="./logo.png"
+            alt="Digital Wellnes logo"
+            width="30"
+            height="24"
+          />
+        </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="./index.html">Home</a>
+              <a class="nav-link" href="./index.html">Αρχική</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./alternative-hobbies.html"
-                >Alternative Hobbies</a
+                >Εναλλακτικά Χόμπι</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./my-app.html">My App</a>
+              <a class="nav-link active" href="./my-app.html">App</a>
             </li>
           </ul>
         </div>
@@ -38,10 +46,10 @@
     <main class="container py-5">
       <div class="row justify-content-center">
         <div class="col-12 col-md-8 col-lg-6">
-          <h1 class="text-center mb-4">Create Your Account</h1>
+          <h1 class="text-center mb-4">Δημιουργία Λογαριασμού</h1>
           <form id="accountForm" action="./index.html" method="get">
             <div class="mb-3">
-              <label for="firstName" class="form-label">Name</label>
+              <label for="firstName" class="form-label">Όνομα</label>
               <input
                 type="text"
                 class="form-control"
@@ -51,7 +59,7 @@
               />
             </div>
             <div class="mb-3">
-              <label for="lastName" class="form-label">Last Name</label>
+              <label for="lastName" class="form-label">Επώνυμο</label>
               <input
                 type="text"
                 class="form-control"
@@ -61,7 +69,7 @@
               />
             </div>
             <div class="mb-3">
-              <label for="phoneNumber" class="form-label">Year of Birth</label>
+              <label for="phoneNumber" class="form-label">Έτος Γέννησης</label>
               <input
                 type="tel"
                 class="form-control"
@@ -88,7 +96,7 @@
               data-bs-target="#createdAccountModal"
               class="btn btn-primary w-100"
             >
-              Create Account
+              Δημιουργία Λογαριασμού
             </button>
           </form>
 
@@ -103,7 +111,7 @@
               <div class="modal-content">
                 <div class="modal-header">
                   <h1 class="modal-title fs-5" id="createdAccountModalLabel">
-                    Account Created
+                    Λογαριασμός Δημιουργήθηκε
                   </h1>
                   <button
                     type="button"
@@ -113,7 +121,8 @@
                   ></button>
                 </div>
                 <div class="modal-body">
-                  Your account has been created successfully!
+                  Ο λογαριασμός σας δημιουργήθηκε με επιτυχία! Μπορείτε τώρα να
+                  επιστρέψετε στην αρχική σελίδα.
                 </div>
                 <div class="modal-footer">
                   <button
@@ -121,9 +130,11 @@
                     class="btn btn-secondary"
                     data-bs-dismiss="modal"
                   >
-                    Close
+                    Κλείσιμο
                   </button>
-                  <a href="./index.html" class="btn btn-primary">Go to Home</a>
+                  <a href="./index.html" class="btn btn-primary">
+                    Επιστροφή στην Αρχική
+                  </a>
                 </div>
               </div>
             </div>
