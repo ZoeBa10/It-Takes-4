@@ -37,3 +37,7 @@ p {
   margin: 10px auto 50px;
   display: block;
 }
+
+.button-container {
+  text-align: center;
+}
