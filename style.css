@@ -50,3 +50,7 @@ p {
   justify-content: center;
   text-align: center;
 }
+#logo {
+  height: 50px;
+  width: 50px;
+}
