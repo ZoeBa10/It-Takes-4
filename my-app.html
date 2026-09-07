@@ -75,9 +75,9 @@
       <button type="button" id="downloadButton" class="btn btn-primary">
         Download
       </button>
-      <button type="button" id="profileButton" class="btn btn-primary">
-        Create Your Account
-      </button>
+      <a href="./create-account.html" class="btn btn-primary"
+        >Create Your Account</a
+      >
     </div>
 
     <script>
@@ -85,12 +85,6 @@
         .getElementById("downloadButton")
         .addEventListener("click", () => {
           alert("App successfully downloaded!");
-
-          document
-            .getElementById("profileButton")
-            .addEventListener("click", () => {
-              alert("Account successfully created!");
-            });
         });
     </script>
   </body>
