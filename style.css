@@ -28,7 +28,13 @@ ul {
   border-bottom: 1px solid darkgray;
 }
 
-p. {
+p {
   font-size: 0px;
   margin: 20px;
+}
+
+.hobbies-img {
+  width: 60%;
+  margin: 10px auto 50px;
+  display: block;
 }
